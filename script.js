@@ -51,6 +51,12 @@ submitBTN.addEventListener('click', (e) =>{
           container.appendChild(ul)
           
 
+          setTimeout(() => {
+               
+               button.click()
+
+          }, 6000);
+
      }
 
 })
