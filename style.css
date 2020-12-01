@@ -9,6 +9,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative; 
+}
+
+.head{
+    position: absolute;
+    top: 0;
+    left: 10px;
 }
 
 .container{
