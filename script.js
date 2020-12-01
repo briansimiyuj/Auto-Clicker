@@ -1,5 +1,7 @@
 const submitBTN = document.querySelector(".submitBTN")
 
+const ul = document.querySelector("ul")
+
 const song = document.querySelector(".song")
 
 const urlName = document.querySelector(".urlName")
@@ -23,8 +25,6 @@ submitBTN.addEventListener('click', (e) =>{
 
           
      }else{
-
-          const ul = document.createElement("ul")
 
           const li = document.createElement("li")   
 
@@ -50,12 +50,11 @@ submitBTN.addEventListener('click', (e) =>{
 
           ul.appendChild(li)
 
-          container.appendChild(ul)
-          
+                  
 
           setTimeout(() => {
                
-               button.click()
+               // button.click()
 
           }, 6000);
 
