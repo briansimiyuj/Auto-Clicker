@@ -11,4 +11,15 @@ const songName = document.querySelector(".songName")
 console.log(submitBTN, songName, urlName, url, song)
 
 
+submitBTN.addEventListener('click', (e) =>{
 
+     e.preventDefault()
+
+     if (songName.value == '' || urlName.value == '') {
+
+          alert('Please enter the song name')
+
+          
+     }
+
+})
