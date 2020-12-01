@@ -40,6 +40,8 @@ submitBTN.addEventListener('click', (e) =>{
 
           a.href = urlName.value
 
+          a.setAttribute('target', '_blank')
+
           a.appendChild(button)
 
           li.appendChild(label)   
@@ -60,3 +62,4 @@ submitBTN.addEventListener('click', (e) =>{
      }
 
 })
+
