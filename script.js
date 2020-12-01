@@ -12,7 +12,7 @@ const container = document.querySelector(".container")
 
 const songName = document.querySelector(".songName")
 
-console.log(submitBTN, songName, urlName, url, song, container)
+
 
 
 submitBTN.addEventListener('click', (e) =>{
@@ -54,7 +54,7 @@ submitBTN.addEventListener('click', (e) =>{
 
           setTimeout(() => {
                
-               // button.click()
+               button.click()
 
           }, 6000);
 
