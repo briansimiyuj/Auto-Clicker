@@ -37,3 +37,7 @@ li{
     width: 100%;
     background-color: khaki;
 }
+
+input{
+    padding: 8px 4px;
+}
